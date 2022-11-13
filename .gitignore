@@ -10,7 +10,7 @@ yarn-error.log*
 build/Release
 
 # Dependency directories
-node_modules/
+node_modules/git 
 jspm_packages/
 
 # Distribution directories
@@ -33,3 +33,4 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+node_modules
