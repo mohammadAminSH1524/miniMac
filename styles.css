@@ -4,10 +4,6 @@
   font-family: nan;
   src: url(../Far_Nazanin/Far_Nazanin.ttf);
 }
-@font-face {
-  font-family: iransanc;
-  src: url(../../A-Iranian-Sans/A-Iranian-Sans/Iranian\ Sans.ttf);
-}
 
 :root {
   --primaryColor: #ff7800;
@@ -81,3 +77,6 @@
 }
 
 /* Beautiful color pairs */
+
+
+

@@ -1,0 +1,128 @@
+:root {
+  --primaryColor: #ff7800;
+  --secondaryColor: #ffe61c;
+  --tertiaryColor: #f7951a;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #7c7c7c;
+  --mainSpacing: 0.25px;
+  --mainTransition: all 0.3s linear;
+  --mainRed: #db2777;
+  --bodyColor: #f9f8f8;
+}
+.container {
+  width: 100%;
+  background-color: var(--bodyColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+.title{
+    font-size:22px;
+}
+
+.containerControll {
+  /* color: var(--primaryColor); */
+  width: 100%;
+  max-width: 1140px;
+  /* border-bottom: 1px solid #000; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titleContainer {
+  width: 320px;
+}
+.searchBoxContainer {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-grow: 1;
+ position: relative;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 11px 20px 11px 50px;
+  font-size: 14px;
+  font-weight: 300;
+  border: 1px solid #aaa;
+  color: #8e8c8c;
+  outline: none;
+  border-radius: 3pc;
+}
+.searchBtn {
+    cursor: pointer;
+    font-size: 20px;
+    border: 0;
+    position: absolute;
+    left: 8px;
+    top: 0;
+    outline: none;
+    width: 32px;
+    background-color: transparent;
+    height: 100%;
+}
+.btnsContainer {
+  width: 320px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.profileContainer {
+  color: #676767;
+  padding-left: 20px;
+  margin-right: 10px;
+  border-left: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cartContainer {
+  color: #505050;
+  padding-right: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profileLogo,
+.cartLogo {
+  display: inline-block;
+  font-size: 22px;
+  width: 22px;
+  height: 22px;
+}
+.cartLogo{
+    position: relative;
+}
+.cartCount{
+    background-color: var(--tertiaryColor);
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 12px;
+    left: -9px;
+    top: -9px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+.profileText,
+.cartText {
+  letter-spacing: 0.1px;
+  line-height: 10px;
+  font-size: 13px;
+}
+.profileText {
+  font-weight: 400;
+}
+.cartText {
+  font-weight: 500;
+}
